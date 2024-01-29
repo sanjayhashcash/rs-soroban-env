@@ -11,4 +11,4 @@ mod storage_types;
 #[cfg(test)]
 pub(crate) mod test_hcnet_asset_contract;
 
-pub(crate) use contract::StellarAssetContract;
+pub(crate) use contract::HcnetAssetContract;

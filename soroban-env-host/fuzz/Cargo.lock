@@ -770,7 +770,7 @@ dependencies = [
  "num-derive",
  "num-traits",
  "soroban-env-macros",
- "soroban-wasmi 0.31.1-soroban.20.0.0 (git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
+ "soroban-wasmi 0.31.1-soroban.20.0.0 (git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
  "static_assertions",
  "hcnet-xdr",
 ]
@@ -795,7 +795,7 @@ dependencies = [
  "sha3",
  "soroban-builtin-sdk-macros",
  "soroban-env-common",
- "soroban-wasmi 0.31.1-soroban.20.0.0 (git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
+ "soroban-wasmi 0.31.1-soroban.20.0.0 (git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
  "static_assertions",
  "hcnet-strkey",
 ]
@@ -852,12 +852,12 @@ dependencies = [
 [[package]]
 name = "soroban-wasmi"
 version = "0.31.1-soroban.20.0.0"
-source = "git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
+source = "git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
 dependencies = [
  "smallvec",
  "spin",
- "wasmi_arena 0.4.0 (git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
- "wasmi_core 0.13.0 (git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
+ "wasmi_arena 0.4.0 (git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
+ "wasmi_core 0.13.0 (git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721)",
  "wasmparser-nostd",
 ]
 
@@ -1063,7 +1063,7 @@ checksum = "401c1f35e413fac1846d4843745589d9ec678977ab35a384db8ae7830525d468"
 [[package]]
 name = "wasmi_arena"
 version = "0.4.0"
-source = "git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
+source = "git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
 
 [[package]]
 name = "wasmi_core"
@@ -1080,7 +1080,7 @@ dependencies = [
 [[package]]
 name = "wasmi_core"
 version = "0.13.0"
-source = "git+https://github.com/hcnet/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
+source = "git+https://github.com/sanjayhashcash/wasmi?rev=ab29800224d85ee64d4ac127bac84cdbb0276721#ab29800224d85ee64d4ac127bac84cdbb0276721"
 dependencies = [
  "downcast-rs",
  "libm",
