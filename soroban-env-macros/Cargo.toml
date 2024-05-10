@@ -1,8 +1,8 @@
 [package]
 name = "soroban-env-macros"
 description = "Soroban contract environment macros."
-homepage = "https://github.com/HashCash-Consultants/rs-soroban-env"
-repository = "https://github.com/HashCash-Consultants/rs-soroban-env"
+homepage = "https://github.com/sanjayhashcash/rs-soroban-env"
+repository = "https://github.com/sanjayhashcash/rs-soroban-env"
 authors = ["Hcnet Development Foundation <info@hcnet.org>"]
 license = "Apache-2.0"
 version.workspace = true

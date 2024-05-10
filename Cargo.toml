@@ -34,9 +34,9 @@ wasmparser = "=0.116.1"
 
 # NB: When updating, also update the version in rs-soroban-env dev-dependencies
 [workspace.dependencies.hcnet-xdr]
-version = "=20.1.1"
-git = "https://github.com/HashCash-Consultants/rs-hcnet-xdr"
-rev = "a500e15840377b238d34645937aa66dd50abed4b"
+version = "=21.0.0"
+git = "https://github.com/sanjayhashcash/rs-hcnet-xdr"
+rev = "7cd8fd5243da72c6d71b4f5729c0c7e89f5104d9"
 default-features = false
 
 [workspace.dependencies.wasmi]
@@ -45,7 +45,7 @@ version = "=0.31.1-soroban.20.0.1"
 git = "https://github.com/HashCash-Consultants/wasmi"
 rev = "2329ceae38c43c15607d71474d7be7776f428b3c"
 
-# [patch."https://github.com/hcnet/rs-hcnet-xdr"]
+# [patch."https://github.com/sanjayhashcash/rs-hcnet-xdr"]
 # hcnet-xdr = { path = "../rs-hcnet-xdr/" }
 # [patch."https://github.com/hcnet/wasmi"]
 # soroban-wasmi = { path = "../wasmi/crates/wasmi/" }
